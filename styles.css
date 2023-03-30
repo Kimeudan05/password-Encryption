@@ -1,0 +1,154 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  background-color: greenyellow;
+  margin: 100px auto;
+}
+
+input[type="email"], input[type="password"], input[type="submit"] {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border: 2px solid #4CAF50;
+}
+header{
+/*  background-color: green;*/
+justify-content: center; 
+  align-items: center; 
+  height: 80px;
+  background-color: lightgreen; 
+  margin-top: 1em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around; 
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+nav li{
+  margin: 0 10px;
+ font-size: 25px;
+ font-weight: bold;
+}
+nav a {
+  text-decoration: none; 
+  color: #333; 
+}
+nav a:hover {
+  color: black;
+  background-color: yellow;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+  padding: 10px 0;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+}
+
+nav ul li ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+nav ul li:hover a {
+  background: #f0f0f0;
+}
+
+nav ul li:hover ul li a:hover {
+  background: green;
+}
+#mem{
+ background-color: lightblue;
+}
+#ment{
+ background-color:orange;
+}
+#secu{
+ background-color: cyan;
+}
+#fin{
+ background-color: green;
+}
+#cat{
+ background-color: ghostwhite;
+}
+/*  Section Styles */
+.services {
+  background-color: indianred;
+  padding: 2rem;
+}
+.contact {
+  background-color: magenta;
+  padding: 2rem;
+}
+.events {
+  background-color: yellowgreen;
+  padding: 2rem;
+}
+.news{
+  background-color: grey;
+   padding: 2rem;
+}
+.hero{
+   background-color: seagreen;
+   text-align: center;
+}
+/* Footer Styles */
+footer {
+  background-color: darkcyan;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
